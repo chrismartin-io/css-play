@@ -18,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <div id="square">
+          <p class="square">Square block</p>
+        </div>
       </header>
     </div>
   );

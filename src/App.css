@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: grid;
 }
 
 .App-logo {
@@ -19,4 +20,23 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+#square {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+#square p {
+  text-decoration: none;
+  color: black;
+  align-self: flex-end;
+}
+#square a {
+  text-decoration: none;
 }
